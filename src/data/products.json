@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blog posts, emails, and ads in seconds with advanced AI.",
+    "price": 29,
+    "period": "mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": ["Unlimited generations", "SEO optimization", "Content scheduler"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Over 5,000+ ready-to-use professional design templates for any industry.",
+    "price": 49,
+    "period": "One Time",
+    "tag": "Popular",
+    "tagType": "secondary",
+    "features": ["5000+ templates", "Sketch & Figma files", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access a massive library of 4K photos, videos, and custom 3D icons.",
+    "price": 19,
+    "period": "mo",
+    "tag": "New",
+    "tagType": "accent",
+    "features": ["4K resolution", "Commercial use", "Daily additions"],
+    "icon": "🖼️"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Connect your favorite apps and automate repetitive tasks with zero coding.",
+    "price": 79,
+    "period": "mo",
+    "tag": "Digital",
+    "tagType": "primary",
+    "features": ["100+ integrations", "24/7 support", "Custom workflows"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-friendly resumes that help you land your dream job.",
+    "price": 15,
+    "period": "One Time",
+    "tag": "Hot",
+    "tagType": "error",
+    "features": ["ATS optimization", "15+ PDF styles", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "A complete kit with captions, hashtags, and schedule templates for growth.",
+    "price": 39,
+    "period": "mo",
+    "tag": "Best Value",
+    "tagType": "success",
+    "features": ["Viral hooks", "Caption generator", "Analytics dashboard"],
+    "icon": "📱"
+  }
+]
