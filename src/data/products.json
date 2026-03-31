@@ -7,7 +7,7 @@
     "period": "mo",
     "tag": "Best Seller",
     "tagType": "warning",
-    "features": ["Unlimited generations", "SEO optimization", "Content scheduler"],
+    "features": ["Unlimited generations", "50+ writing templates", "Grammar checker"],
     "icon": "✍️"
   },
   {
@@ -38,7 +38,7 @@
     "description": "Connect your favorite apps and automate repetitive tasks with zero coding.",
     "price": 79,
     "period": "mo",
-    "tag": "Digital",
+    "tag": "Popular",
     "tagType": "primary",
     "features": ["100+ integrations", "24/7 support", "Custom workflows"],
     "icon": "⚙️"
@@ -48,7 +48,7 @@
     "name": "Resume Builder Pro",
     "description": "Create professional, ATS-friendly resumes that help you land your dream job.",
     "price": 15,
-    "period": "One Time",
+    "period": "New",
     "tag": "Hot",
     "tagType": "error",
     "features": ["ATS optimization", "15+ PDF styles", "Export to PDF"],
@@ -60,7 +60,7 @@
     "description": "A complete kit with captions, hashtags, and schedule templates for growth.",
     "price": 39,
     "period": "mo",
-    "tag": "Best Value",
+    "tag": "Best Seller",
     "tagType": "success",
     "features": ["Viral hooks", "Caption generator", "Analytics dashboard"],
     "icon": "📱"
