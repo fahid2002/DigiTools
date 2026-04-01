@@ -1,29 +1,47 @@
 import React from "react";
 
 export default function Navbar({ cartCount, setView }) {
+  
+  // 1. Reload Function for Logo
+  const handleLogoClick = () => {
+    window.location.reload();
+  };
+
+  // 2. Smooth Scroll Function for Sections
+  const scrollToSection = (id) => {
+    // If we are currently in "Cart" view, switch back to "Products" first
+    setView("products");
+    
+    // Small timeout to ensure the component is rendered before scrolling
+    setTimeout(() => {
+      const element = document.getElementById(id.toLowerCase());
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
   return (
     <div className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
-      {/*Centered Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
-          {/*LOGO */}
+          {/* LOGO - Reloads Page */}
           <div 
-            onClick={() => setView("products")} 
+            onClick={handleLogoClick} 
             className="flex items-center gap-2 cursor-pointer group"
           >
-            
             <span className="text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
               DigiTools
             </span>
           </div>
 
-          {/* CENTER MENU (Desktop) */}
+          {/* CENTER MENU - Scroll to Sections */}
           <div className="hidden lg:flex items-center gap-8">
             {["Products", "Features", "Pricing", "Testimonials", "FAQ"].map((item) => (
               <button
                 key={item}
-                onClick={() => item === "Products" && setView("products")}
+                onClick={() => scrollToSection(item)}
                 className="text-gray-600 hover:text-purple-600 font-semibold text-sm transition-colors relative group"
               >
                 {item}
@@ -32,10 +50,10 @@ export default function Navbar({ cartCount, setView }) {
             ))}
           </div>
 
-          {/*RIGHT SIDE */}
+          {/* RIGHT SIDE */}
           <div className="flex items-center gap-3 md:gap-6">
             
-            {/*CART BUTTON */}
+            {/* CART BUTTON - Switch to Cart View */}
             <button
               onClick={() => setView("cart")}
               className="btn btn-ghost btn-circle group relative"
@@ -52,15 +70,21 @@ export default function Navbar({ cartCount, setView }) {
               </div>
             </button>
 
-            {/*LOGIN*/}
-            <button className="hidden md:block text-gray-700 font-bold hover:text-purple-600 transition-colors px-4">
+            {/* LOGIN - Alert for now */}
+            <button 
+              onClick={() => alert("Login Modal Opening...")}
+              className="hidden md:block text-gray-700 font-bold hover:text-purple-600 transition-colors px-4"
+            >
               Login
             </button>
 
-            {/*GET STARTED */}
-            <button className="btn bg-purple-600 hover:bg-purple-700 text-white border-none rounded-full px-6 shadow-lg shadow-purple-100 hidden sm:flex">
-  Get Started
-</button>
+            {/* GET STARTED - Scroll to Product Section */}
+            <button 
+              onClick={() => scrollToSection("products")}
+              className="btn bg-purple-600 hover:bg-purple-700 text-white border-none rounded-full px-6 shadow-lg shadow-purple-100 hidden sm:flex"
+            >
+              Get Started
+            </button>
           </div>
         </div>
       </div>

@@ -23,7 +23,8 @@ export default function Steps() {
   ];
 
   return (
-    <section className="bg-white py-16">
+    /* Changed bg-white to bg-slate-50 for a light gray feel */
+    <section className="bg-slate-50 py-16">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         
         {/* Header */}

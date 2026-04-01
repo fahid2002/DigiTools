@@ -42,10 +42,11 @@ export default function Pricing() {
           {plans.map((plan) => (
             <div 
               key={plan.name} 
-              className={`relative flex flex-col p-8 rounded-[2.5rem] border transition-all duration-500 ${
+              /* Apply rounded-[25%] and conditional bg-slate-50 for non-active plans */
+              className={`relative flex flex-col p-8 rounded-[5%] border transition-all duration-500 ${
                 plan.active 
                   ? 'bg-gradient-to-br from-blue-600 to-purple-700 text-white scale-105 z-10 shadow-2xl shadow-purple-200 border-none' 
-                  : 'bg-white border-slate-100 text-slate-800 shadow-sm'
+                  : 'bg-slate-50 border-slate-100 text-slate-800 shadow-sm'
               }`}
             >
               {/*Most Popular Badge*/}
@@ -100,7 +101,7 @@ export default function Pricing() {
                     : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-100'
                 }`}
               >
-                {plan.name === "Enterprise" ? "Contact Sales" : plan.name === "Pro" ? "Start Pro Trial" : "Get Started Now"}
+                {plan.name === "Enterprise" ? "Contact Sales" : plan.name === "Pro" ? "Start Pro Trial" : "Get Started Free"}
               </button>
             </div>
           ))}
