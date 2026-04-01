@@ -12,7 +12,7 @@ export default function Banner() {
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-purple-200 to-indigo-100 rounded-[2.5rem] blur-2xl opacity-40"></div>
               <img 
-                src="/banner.png" 
+                src="banner.png" 
                 className="relative w-full max-w-md lg:max-w-lg rounded-[2.5rem] shadow-2xl transition-transform duration-700 hover:scale-[1.03]" 
                 alt="Hero Banner" 
               />
