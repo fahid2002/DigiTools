@@ -6,24 +6,24 @@ export default function Steps() {
       id: "01", 
       title: "Create Account", 
       desc: "Sign up for free in seconds. No credit card required to get started.", 
-      img: "/user.png" 
+      // Removed the leading slash here for cleaner logic
+      img: "user.png" 
     },
     { 
       id: "02", 
       title: "Choose Products", 
       desc: "Browse our catalog and select the tools that fit your needs.", 
-      img: "/package.png" 
+      img: "package.png" 
     },
     { 
       id: "03", 
       title: "Start Creating", 
       desc: "Download and start using your premium tools immediately.", 
-      img: "/rocket.png" 
+      img: "rocket.png" 
     }
   ];
 
   return (
-    /* Changed bg-white to bg-slate-50 for a light gray feel */
     <section className="bg-slate-50 py-16">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         
@@ -53,7 +53,8 @@ export default function Steps() {
               <div className="mb-6 flex justify-center pt-2">
                 <div className="w-24 h-24 rounded-full bg-purple-50 flex items-center justify-center overflow-hidden border border-purple-100 group-hover:scale-105 transition-transform duration-500 shadow-sm">
                   <img 
-                    src={step.img} 
+                    // FIXED: Added BASE_URL to ensure images load on GitHub Pages
+                    src={`${import.meta.env.BASE_URL}${step.img}`} 
                     alt={step.title} 
                     className="w-full h-full object-contain p-5" 
                   />

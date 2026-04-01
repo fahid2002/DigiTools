@@ -40,9 +40,9 @@ export default function Products({ addToCart }) {
                 {/* Image Container */}
                 <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center overflow-hidden border border-slate-100 shadow-sm">
                   <img 
-                    src={item.img} 
-                    alt={item.name} 
-                    className="w-full h-full object-contain p-2.5" 
+                    src={`${import.meta.env.BASE_URL}${item.img.replace(/^\//, '')}`} 
+  alt={item.name} 
+  className="w-full h-full object-contain p-2.5"
                   />
                 </div>
 
