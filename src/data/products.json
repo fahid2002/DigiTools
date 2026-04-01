@@ -8,7 +8,7 @@
     "tag": "Best Seller",
     "tagType": "warning",
     "features": ["Unlimited generations", "50+ writing templates", "Grammar checker"],
-    "img": "/writing_2327400 1.png"
+    "img": "writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "Popular",
     "tagType": "secondary",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "img": "/design-tool.png"
+    "img": "design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "New",
     "tagType": "accent",
     "features": ["10M+ assets", "Commercial use", "No attribution"],
-    "img": "/writing_2327400 1.png"
+    "img": "writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "primary",
     "features": ["50+ automations", "API access", "Custom workflows"],
-    "img": "/operation.png"
+    "img": "operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "New",
     "tagType": "error",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "img": "/portfolio.png"
+    "img": "portfolio.png"
   },
   {
     "id": 6,
@@ -63,6 +63,6 @@
     "tag": "Best Seller",
     "tagType": "success",
     "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
-    "img": "/social-media.png"
+    "img": "social-media.png"
   }
 ]

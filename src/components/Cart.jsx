@@ -35,10 +35,10 @@ export default function Cart({ cart, removeItem, clearCart }) {
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm border border-slate-100 p-2.5">
                       <img 
-                        src={item.img} 
-                        alt={item.name} 
-                        className="w-full h-full object-contain" 
-                      />
+  src={`${import.meta.env.BASE_URL}${item.img.replace(/^\//, '')}`} 
+  alt={item.name} 
+  className="w-full h-full object-contain" 
+/>
                     </div>
                     
                     <div>
