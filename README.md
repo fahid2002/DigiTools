@@ -26,6 +26,12 @@ A high-performance, single-page digital marketplace interface built with React a
 
 ---
 
+### Note: 
+The live link may show a 'Dangerous Site' warning on some mobile browsers. This is a common GitHub Pages false positive for new deployments. The site is safe to proceed to, and the code is verified in the repository.
+
+
+---
+
 ### Project Structure
 
 ```text
