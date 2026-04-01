@@ -101,15 +101,7 @@ export default function App() {
               <h2 className="text-4xl font-bold mb-4">Ready To Transform Your Workflow?</h2>
               <p className="mb-8 opacity-90">Join thousands of professionals who are already using Digitools to work smarter.<br />Start your free trial today.</p>
               <div className="flex justify-center gap-4">
-                  <button 
-  onClick={() => {setView("products"); 
-    setTimeout(() => {document.getElementById('products').scrollIntoView({ behavior: 'smooth' }); 
-    }, 100);
-  }} 
-  className="btn bg-white text-purple-600 border-none hover:bg-gray-100 px-8 rounded-full"
->
-  Explore Products
-</button>
+                  <button onClick={() => {setView("products"); setTimeout(() => {document.getElementById('products').scrollIntoView({ behavior: 'smooth' }); }, 100);}} className="btn bg-white text-purple-600 border-none hover:bg-gray-100 px-8 rounded-full">Explore Products</button>
                   <button onClick={() => document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})} className="btn btn-outline border-white text-white hover:bg-white hover:text-purple-600 px-8 rounded-full">View Pricing</button>
               </div>
               <p className="mt-8 opacity-90">14-day free trial • No credit card required • Cancel anytime</p>
