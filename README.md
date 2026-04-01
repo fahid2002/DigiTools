@@ -8,7 +8,6 @@ A high-performance, single-page digital marketplace interface built with React a
 * **Core:** React 18 (Vite)
 * **Styling:** Tailwind CSS (Glassmorphism & Responsive Grids)
 * **Notifications:** React-Toastify
-* **Icons:** HeroIcons / Lucide
 
 ---
 
