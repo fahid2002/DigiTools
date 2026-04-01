@@ -1,10 +1,10 @@
-# DigiTools 🛠️
+# DigiTools
 
 A high-performance, single-page digital marketplace interface built with React and Tailwind CSS. This project focuses on state-driven UI transitions, dynamic cart management, and coordinated smooth-scrolling logic.
 
 ---
 
-### ⚡ Tech Stack
+### Tech Stack
 * **Core:** React 18 (Vite)
 * **Styling:** Tailwind CSS (Glassmorphism & Responsive Grids)
 * **Notifications:** React-Toastify
@@ -12,7 +12,7 @@ A high-performance, single-page digital marketplace interface built with React a
 
 ---
 
-### 🧠 Core Logic & Features
+### Features
 
 1. **Dual-View System:** Uses a centralized `view` state in `App.jsx` to toggle between the **Product Gallery** and the **Checkout Cart** without page reloads or complex routing.
 
@@ -26,7 +26,7 @@ A high-performance, single-page digital marketplace interface built with React a
 
 ---
 
-### 📂 Project Structure
+### Project Structure
 
 ```text
 src/
@@ -37,7 +37,10 @@ src/
 │   └── ...          # Banner, Stats, Pricing, Footer
 ├── App.jsx          # Root State (Cart & View)
 └── main.jsx         # App Entry Point
-🚀 Getting Started
+
+"Note: The live link may show a 'Dangerous Site' warning on some mobile browsers. This is a common GitHub Pages false positive for new deployments. The site is safe to proceed to, and the code is verified in the repository."
+
+Getting Started
 Install Dependencies
 
 Bash
