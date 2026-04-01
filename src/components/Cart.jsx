@@ -7,10 +7,10 @@ export default function Cart({ cart, removeItem, clearCart }) {
   const handleCheckout = () => {
     if (cart.length === 0) return;
     
-    // 1. You can add your logic here (e.g., API call)
+    // API call
     alert("Proceeding to checkout...");
     
-    // 2. Call the function passed from App.jsx to empty the state
+    // Call the function passed from App.jsx to empty the state
     clearCart();
   };
 
@@ -67,7 +67,7 @@ export default function Cart({ cart, removeItem, clearCart }) {
               </span>
             </div>
 
-            {/* FIXED BUTTON: Changed onClick to handleCheckout */}
+            {/*BUTTON:handleCheckout */}
             <button
               onClick={handleCheckout}
               className="w-full py-4 bg-[#8b3dff] hover:bg-[#7a2df0] text-white rounded-full font-bold text-base shadow-xl shadow-purple-100 transition-all hover:-translate-y-0.5 active:scale-95"

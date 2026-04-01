@@ -89,7 +89,7 @@ export default function App() {
             <Pricing />
           </section>
 
-          {/* FAQ Placeholder - You can replace this with an FAQ component later */}
+          {/* FAQ Placeholder */}
           <section id="faq" className="py-20 bg-white scroll-mt-20">
             <div className="max-w-3xl mx-auto px-6 text-center">
                <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
