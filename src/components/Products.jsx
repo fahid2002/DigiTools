@@ -38,11 +38,12 @@ export default function Products({ addToCart }) {
             </ul>
             
             <button 
-              onClick={() => addToCart(item)}
-              className="btn btn-primary w-full bg-purple-600 border-none hover:bg-purple-700 text-white rounded-full font-bold"
-            >
-              Buy Now
-            </button>
+  onClick={() => addToCart(item)}
+  /* Combined from-blue-600 and to-purple-600 for the gradient mix */
+  className="btn w-full bg-gradient-to-r from-blue-600 to-purple-600 border-none hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-bold shadow-lg shadow-blue-100 transition-all duration-300"
+>
+  Buy Now
+</button>
           </div>
         ))}
       </div>

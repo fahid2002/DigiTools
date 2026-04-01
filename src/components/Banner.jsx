@@ -7,7 +7,7 @@ export default function Banner() {
         
         <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-10 lg:gap-16">
           
-          {/* 🖼️ IMAGE SIDE */}
+          {/*IMAGE*/}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-purple-200 to-indigo-100 rounded-[2.5rem] blur-2xl opacity-40"></div>
@@ -19,7 +19,7 @@ export default function Banner() {
             </div>
           </div>
 
-          {/* 📝 TEXT SIDE */}
+          {/*TEXT */}
             <div className="w-full lg:w-1/2 text-left">
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-purple-50 border border-purple-100 mb-8">
               <span className="relative flex h-3 w-3">
@@ -47,7 +47,7 @@ export default function Banner() {
                 Explore Products
               </button>
 
-              {/* 🎥 Watch Demo Button with SVG Icon */}
+              {/*Watch Demo*/}
               <button className="btn btn-outline border-slate-300 text-slate-700 hover:bg-slate-50 hover:text-purple-600 px-10 rounded-full h-14 font-bold normal-case text-lg gap-3">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 

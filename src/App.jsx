@@ -76,11 +76,13 @@ export default function App() { // Moved export default here
       {/* Newsletter Call to Action */}
       <div className="bg-gradient-to-r from-indigo-600 to-purple-600 py-20 text-center text-white">
           <h2 className="text-4xl font-bold mb-4">Ready To Transform Your Workflow?</h2>
-          <p className="mb-8 opacity-90">Join 50,000+ creators using DigiTools daily.</p>
+          <p className="mb-8 opacity-90">Join thousands of professionals who are already using Digitools to work smarter.<br />Start your free trial today.</p>
           <div className="flex justify-center gap-4">
-              <button className="btn bg-white text-purple-600 border-none hover:bg-gray-100 px-8">Explore Products</button>
-              <button className="btn btn-outline border-white text-white hover:bg-white hover:text-purple-600 px-8">Pricing</button>
+              <button className="btn bg-white text-purple-600 border-none hover:bg-gray-100 px-8 rounded-full" >Explore Products</button>
+              <button className="btn btn-outline border-white text-white hover:bg-white hover:text-purple-600 px-8 rounded-full">View Pricing</button>
+              
           </div>
+          <p className="mb-4 opacity-90 py-5">14-day free trial • No credit card required • Cancel anytime</p>
       </div>
 
       <Footer />
